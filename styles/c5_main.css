@@ -34,7 +34,7 @@ header {
 header h2 {
 	font-size: 175%;
 	color: var(--global-color-1);
-	text-indent: 30px;
+	text-indent: 0px;
 }
 header h3 {
 	font-size: 130%;
@@ -43,6 +43,7 @@ header h3 {
 }
 header img {
 	float: left;
+	padding: 0 30px;
 }
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
@@ -50,10 +51,17 @@ header img {
 /* the styles for the main content */
 main {
 	clear: left;
+	padding: 0 30px;
 }
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
+	text-indent: 40px;
+	border-style: double;
+	border-color: #931420;
+	box-shadow: 4px 4px 1px rgba(0, 0, 0, 1);
+	border-radius: 10px;
+	
 }
 main h2 {
 	color: var(--global-color-1);
@@ -98,4 +106,5 @@ footer p {
 	text-align: center;
 	padding: 1em 0;
 	color: white;
+	background-color: #931420;
 }
